@@ -1,0 +1,56 @@
+:root{
+    --colorTitle:rgb(89, 42, 129);
+    --colorSub:rgb(140, 59, 211);
+}
+.natvar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    font-size: 5rem;
+    color: var(--colorTitle);
+}
+.subtitulo{
+    font-size: 3rem;
+    text-decoration: underline;
+    color:var(--colorSub) ;
+}
+h1, p{
+    align-self:center ;
+}
+#app{
+    width: 80%;
+    grid-template-columns:repeat(3, minmax(400px, 450px));;
+    gap: 50px;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(231, 181, 247);
+    border-radius: 20px;
+}
+.tituloJS{
+    color: black;
+    font-size: 3rem;
+    margin-left: 5px;
+}
+.PriceJS {
+    font-size: 3rem;
+    margin-left: 5px;
+    color: var(--colorSub);
+}
+.imagenjs{
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    border-color: var(--colorSub);
+    border-style: groove;
+    background-color: rgb(250, 250, 250);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container:hover{
+   box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);;
+}
